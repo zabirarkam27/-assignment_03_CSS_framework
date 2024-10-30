@@ -173,14 +173,15 @@
         </article>
 
         <article class=" max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
+
+            <!-- Latest portfolio section -->
             <section>
                 <div class="flex flex-col items-center space-y-10">
                     <!-- about us btn -->
-                    <button class="btn rounded-full bg-[#ABEF5F]/20 font-bold w-[350px]">
+                    <button class="btn rounded-full bg-[#ABEF5F]/20 font-bold w-[230px]">
                         <i class="fa-solid fa-arrow-right "></i>
                         <p>Explore our Latest Work</p>
                     </button>
-
                     <!-- section header -->
                     <div class="text-center flex flex-col items-center max-w-[680px] w-full mx-auto space-y-5">
                         <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-[#212121]">Our Works Process
@@ -190,8 +191,64 @@
                         </p>
                     </div>
                 </div>
-
             </section>
+
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4">
+                <!-- card-1 -->
+                <div
+                    class="md:col-span-2 lg:col-span-2 md:flex items-center mx-auto border rounded-xl p-5 space-y-3 lg:max-h-[228px] lg:h-full">
+                    <img class="max-w-[425px] w-full p-1 rounded-xl object-cover" src="./assets/img1.png" alt="">
+                    <div class="flex flex-col items-start justify-start px-2 space-y-3">
+                        <h2 class="text-2xl font-extrabold">Commercial</h2>
+                        <p>Designs that bring sophistication to business environments, balancing elegance with
+                            practicality.</p>
+                        <a class="flex text-lg font-extrabold space-x-2" href="/">
+                            <p>View Details</p>
+                            <i class="fa-solid fa-arrow-right -rotate-45 h-7 w-7 rounded-full p-1.5 bg-[#ABEF5F]"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="border rounded-xl p-5 max-h-[228px] h-full ">
+                    <img class="object-cover w-full h-full rounded-xl" src="./assets/img2.png" alt="">
+                </div>
+                <!-- card-3 -->
+                <div class="border rounded-xl p-5 max-h-[228px] h-full lg:hidden ">
+                    <img class="object-cover w-full h-full rounded-xl" src="./assets/img5.png" alt="">
+                </div>
+            </section>
+
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5 gap-4">
+                <!-- card-4 -->
+                <div class="border rounded-xl p-5 max-h-[228px] h-full hidden lg:block ">
+                    <img class="object-cover w-full h-full rounded-xl" src="./assets/img3.png" alt="">
+                </div>
+                <!-- card-5 -->
+                <div class="md:col-span-2 lg:col-span-2 border rounded-xl p-5 space-y-3">
+                    <div class="grid grid-cols-1 md:grid-cols-3 items-center">
+                        <img class="col-span-1 w-full p-1 rounded-xl object-cover" src="./assets/img4.png" alt="">
+                        <div class="col-span-2 flex flex-col items-start justify-start px-2 space-y-3">
+                            <h2 class="text-2xl font-extrabold">Commercial</h2>
+                            <p>Designs that bring sophistication to business environments.</p>
+                            <a class="flex text-lg font-extrabold space-x-2" href="/">
+                                <p>View Details</p>
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 h-7 w-7 rounded-full p-1.5 bg-[#ABEF5F]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-6 (hidden on lg) -->
+                <div class="border rounded-xl p-5 max-h-[228px] h-full lg:hidden ">
+                    <img class="object-cover w-full h-full rounded-xl" src="./assets/img3.png" alt="">
+                </div>
+                <!-- card-6 -->
+                <div class="border rounded-xl p-5 max-h-[228px] h-full">
+                    <img class="object-cover w-full h-full rounded-xl" src="./assets/img5.png" alt="">
+                </div>
+            </section>
+
+
         </article>
 
     </main>
