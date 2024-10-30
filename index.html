@@ -246,13 +246,11 @@
                     <img class="object-cover w-full h-full rounded-xl" src="./assets/img5.png" alt="">
                 </div>
             </section>
-
-
         </article>
 
         <!-- Discuss next project section -->
         <article class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat">
-            <section class=" max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
+            <section class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
                 <div class="flex flex-col items-center space-y-10">
                     <!-- about us btn -->
                     <button class="btn rounded-full bg-[#ABEF5F]/40 font-bold w-[180px]">
@@ -273,20 +271,26 @@
                 </div>
                 <!-- Input Section -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-                    <input type="text" placeholder="First Name*"
-                        class="input input-bordered w-full rounded-full text-sm" />
-
-                    <input type="text" placeholder="Last Name*"
-                        class="input input-bordered w-full rounded-full text-sm" />
-
-                    <input type="number" placeholder="Phone Number*"
-                        class="input input-bordered w-full rounded-full text-sm" />
-
-                    <input type="text" placeholder="Email Address*"
-                        class="input input-bordered w-full rounded-full text-sm" />
-
-                    <textarea class="textarea textarea-bordered col-span-2 rounded-3xl  text-sm h-60"
-                        placeholder="Write your massage here"></textarea>
+                    <div class=" w-full">
+                        <input type="text" placeholder="First Name*"
+                            class="input input-bordered rounded-full w-full text-sm" />
+                    </div>
+                    <div class="w-full">
+                        <input type="text" placeholder="Last Name*"
+                            class="input input-bordered w-full rounded-full text-sm" />
+                    </div>
+                    <div class="w-full">
+                        <input type="number" placeholder="Phone Number*"
+                            class="input input-bordered w-full rounded-full text-sm" />
+                    </div>
+                    <div class="w-full">
+                        <input type="text" placeholder="Email Address*"
+                            class="input input-bordered w-full rounded-full text-sm" />
+                    </div>
+                    <div class="md:col-span-2 w-full">
+                        <textarea class="textarea textarea-bordered  rounded-3xl  w-full text-sm h-60"
+                            placeholder="Write your message here"></textarea>
+                    </div>
                 </div>
                 <button class="md:col-span-2 btn rounded-full bg-[#ABEF5F] text-xl font-extrabold w-full mt-4 ">
                     <p>Send Mail</p>
@@ -297,8 +301,30 @@
         </article>
     </main>
 
-    <footer>
-
+    <footer class="bg-[#1C1C1C]">
+        <div class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20 text-[#E9E9E9] flex flex-col items-center">
+            <div class="text-center space-y-8">
+                <h1 class="text-4xl font-extrabold ">
+                    <i
+                        class="fa-solid fa-arrow-right -rotate-45 h-11 w-11 rounded-full p-1 bg-[#ABEF5F] text-gray-900"></i>
+                    Rinterio
+                </h1>
+                <p class="text-[#737373]">Building dreams with a blend of tradition and modern craftsmanship.</p>
+            </div>
+            <div class="footer footer-center rounded p-10">
+                <nav class="grid md:grid-flow-col md:gap-20 lg:gap-36">
+                    <a class="link link-hover">Home</a>
+                    <a class="link link-hover">Services</a>
+                    <a class="link link-hover">Portfolio</a>
+                    <a class="link link-hover">Blogs</a>
+                    <a class="link link-hover">Contact Us</a>
+                </nav>
+            </div>
+            <button class="md:col-span-2 btn rounded-full bg-[#ABEF5F] text-xl font-extrabold mt-4 w-60">
+                <p>Send Mail</p>
+                <i class="fa-solid fa-arrow-right -rotate-45 h-7 w-7 rounded-full p-1 bg-gray-900 text-[#ABEF5F]"></i>
+            </button>
+        </div>
     </footer>
 </body>
 
