@@ -28,11 +28,63 @@
 </head>
 
 <body class="font-manrope text-gray-700">
-    <header>
-        <div class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
+    <header class="bg-slate-100">
+        <div class="max-w-[1200px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
             <!-- nav section -->
             <nav>
-
+                <div class="max-w-[1200px] w-5/6 lg:w-full">
+                    <div class="navbar w-full">
+                        <!-- logo -->
+                        <div class="navbar-start">
+                            <a class="btn btn-ghost">
+                                <h1 class="text-xl lg:text-3xl font-extrabold ">
+                                    <i
+                                        class="fa-solid fa-arrow-right -rotate-45 h-7 lg:h-11 w-7 lg:w-11 rounded-full p-1 bg-[#ABEF5F] text-gray-900"></i>
+                                    Rinterio
+                                </h1>
+                            </a>
+                        </div>
+                        <!-- Nav icon for small device-->
+                        <div class="navbar-end lg:hidden">
+                            <div class="dropdown">
+                                <button class="btn btn-ghost text-xl">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                                <!-- dropdown menu -->
+                                <ul class="menu menu-sm dropdown-content rounded-box mt-3 shadow bg-white">
+                                    <li><a>Home</a></li>
+                                    <li><a>Service</a></li>
+                                    <li><a>Portfolio</a></li>
+                                    <li><a>Blogs</a></li>
+                                    <li><a>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- nav items for large device -->
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1">
+                                <li><a class="font-extrabold">Home</a></li>
+                                <li><a>Service</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- button & icons -->
+                        <div class="navbar-end hidden lg:flex gap-3">
+                            <a href="" class="bg-white rounded-full p-1 h-8 w-8"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="" class="bg-white rounded-full p-1 h-8 w-8"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                            <button
+                                class="btn btn-ghost rounded-full bg-[#ABEF5F] text-sm w-40 font-extrabold flex items-center">
+                                <span>Book Consult</span>
+                                <i
+                                    class="fa-solid fa-arrow-right -rotate-45 h-6 w-6 rounded-full p-1 bg-gray-900 text-[#ABEF5F]"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </nav>
 
             <!-- Banner section -->
@@ -83,16 +135,17 @@
                                     beautiful, functional, and sustainable homes.</p>
                             </div>
                             <!-- Cards -->
-                            <div class="space-y-5">
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-3 justify-center items-center space-y-2 md:space-y-0 lg:space-y-5">
                                 <!-- Card-1 -->
-                                <div class="flex items-center lg:items-start bg-white py-6 px-8 rounded-xl gap-4">
+                                <div
+                                    class="flex items-center lg:items-start bg-white py-6 px-8 rounded-xl gap-4 w-full">
                                     <figure>
                                         <img class="" src="./assets/commercial.png" />
                                     </figure>
                                     <div class="space-y-2">
                                         <h2 class="text-xl font-extrabold">Commercial</h2>
-                                        <p>Designs that bring sophistication to business environments, balancing
-                                            elegance with practicality.</p>
+                                        <p>Designs that bring sophistication to business environments.</p>
                                     </div>
                                 </div>
                                 <!-- Card-2 -->
@@ -191,7 +244,7 @@
                     </div>
                 </div>
             </section>
-
+            <!-- Cards -->
             <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4">
                 <!-- card-1 -->
                 <div
@@ -248,7 +301,7 @@
             </section>
         </article>
 
-        <!-- Discuss next project section -->
+        <!-- Discuss section -->
         <article class="bg-[url('./assets/bg.jpg')] bg-cover bg-no-repeat">
             <section class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20">
                 <div class="flex flex-col items-center space-y-10">
@@ -301,8 +354,10 @@
         </article>
     </main>
 
+    <!-- This is footer -->
     <footer class="bg-[#1C1C1C]">
-        <div class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20 text-[#E9E9E9] flex flex-col items-center">
+        <div
+            class="max-w-[1170px] w-full container mx-auto px-1 md:px-10 lg:px-20 py-20 text-[#E9E9E9] flex flex-col items-center">
             <div class="text-center space-y-8">
                 <h1 class="text-4xl font-extrabold ">
                     <i
